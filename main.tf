@@ -7,7 +7,6 @@ resource "docker_container" "web" {
   name  = "web"
   ports {
     internal = 80
-    external = 8080
   }
   env = [
     "TITLE=${var.title}",
