@@ -1,0 +1,6 @@
+.mm.log
+.terraform.lock.hcl
+terraform.tfstate
+.terraform
+.vscode
+terraform.tfstate.backup
