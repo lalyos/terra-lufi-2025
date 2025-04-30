@@ -11,7 +11,7 @@ resource "docker_container" "web" {
   env = [
     "TITLE=${var.title}",
     "COLOR=${var.color}",
-    "BODY=${vars.body}"
+    "BODY=${var.body}"
   ]
 }
 
